@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lato', 'sans-sherif';
+    color: #291f1a;
+    font-weight: 300;
+}
+
+/*właściwości menu nawigacyjne*/
+#main-nav {
+    display: inline-block;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+#main-nav>ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+}
+
+#main-nav>ul>li>a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+#main-nav>ul>li>a:hover {
+    color: #291f1a;
+}
