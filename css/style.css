@@ -52,9 +52,12 @@ section h2 {
     background-image: url(../img/header-background.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
 }
 
-#main-header.main-header-content {
+#main-header .main-header-content {
     padding: 30vh;
 }
 
@@ -84,9 +87,25 @@ section h2 {
 #about img {
     width: 100%;
     border: white solid 15px;
+    text-align: center;
 }
 
 #about article {
     width: 50%;
     float: left;
+}
+
+/*włąsciowści section umiejętności*/
+
+#skills figure {
+    display: inline-block;
+    text-align: center;
+}
+
+#skills figure figcaption {
+    text-align: center;
+}
+
+#skills p {
+    text-align: center;
 }
