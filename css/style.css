@@ -4,7 +4,19 @@ body {
     font-weight: 300;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
 /*właściwości menu nawigacyjne*/
+
 #main-nav {
     position: fixed;
     background-color: #fff;
@@ -14,23 +26,23 @@ body {
     z-index: 2;
 }
 
-#main-nav>ul {
+#main-nav > ul {
     margin: 0;
     float: right;
 }
 
-#main-nav>ul>li {
+#main-nav > ul > li {
     display: inline-block;
     list-style-type: none;
 }
 
-#main-nav>ul>li>a {
+#main-nav > ul > li > a {
     text-decoration: none;
     color: #1ac056;
     font-weight: 300;
 }
 
-#main-nav>ul>li>a:hover {
+#main-nav > ul > li > a:hover {
     color: #291f1a;
 }
 
@@ -48,4 +60,33 @@ body {
 
 #main-header h1 {
     font-family: 'Roboto';
+}
+
+/*właściwości section o mnie*/
+
+#about {
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about figure {
+    max-height: 350 px;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#about img {
+    width: 100%;
+    border: white solid 15px;
+}
+
+#about article {
+    width: 50%;
+    float: left;
 }
