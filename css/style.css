@@ -6,7 +6,6 @@ body {
 
 /*właściwości menu nawigacyjne*/
 #main-nav {
-    display: inline-block;
     position: fixed;
     background-color: #fff;
     width: 100%;
@@ -16,9 +15,13 @@ body {
 }
 
 #main-nav>ul {
-    list-style-type: none;
     margin: 0;
     float: right;
+}
+
+#main-nav>ul>li {
+    display: inline-block;
+    list-style-type: none;
 }
 
 #main-nav>ul>li>a {
@@ -29,4 +32,20 @@ body {
 
 #main-nav>ul>li>a:hover {
     color: #291f1a;
+}
+
+/*właściwości header z imieniem i nazwiskiem*/
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main-header.main-header-content {
+    padding: 30vh;
+}
+
+#main-header h1 {
+    font-family: 'Roboto';
 }
