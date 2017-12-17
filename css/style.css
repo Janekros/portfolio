@@ -185,11 +185,6 @@ h1 {
     color: #fff;
 }
 
-#contact a:hover {
-    color: #213b50;
-    background-color: #fff;
-}
-
 /*właściwości section portfolio*/
 
 #portfolio .portfolio-items #portfolio-item1 {
@@ -218,15 +213,5 @@ h1 {
     text-align: center;
     font-size: 0;
 }
-
-#portfolio .item-mask {
-    background-color: rgba(42, 61, 79, 0.8);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    position: absolute;
-    font-size: initial;
-}
-
 
 
