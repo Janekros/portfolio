@@ -43,6 +43,7 @@ h1 {
 #main-nav > ul > li {
     display: inline-block;
     list-style-type: none;
+    padding: 10px 20px;
 }
 
 #main-nav > ul > li > a {
@@ -53,6 +54,12 @@ h1 {
 
 #main-nav > ul > li > a:hover {
     color: #291f1a;
+}
+
+#main-nav label
+#main-nav #drop {
+    display: none;
+    color: #fff;
 }
 
 /*właściwości header z imieniem i nazwiskiem*/
@@ -164,6 +171,8 @@ h1 {
     background-color: #2b4a64;
 }
 
+/* możemy ewentualnie użyć pseudoklasy :not i wykluczyć input type submit */
+
 #contact form input:focus,
 #contact form textarea:focus {
     background-color: #426684;
@@ -177,7 +186,7 @@ h1 {
     background-color: #1ac056;
     color: #fff;
     font-weight: 600;
-    width: 30%;
+    width: auto;
 }
 
 #contact form input[type=submit]:hover {
@@ -185,7 +194,7 @@ h1 {
     color: #1ac056;
 }
 
-#contact a {
+#contact i {
     display: inline-block;
     height: 38px;
     width: 38px;
@@ -196,6 +205,7 @@ h1 {
     font-size: 22px;
     color: #fff;
 }
+
 
 /*właściwości section portfolio*/
 
