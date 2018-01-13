@@ -8,6 +8,11 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    padding: 10px 40px;
+    overflow: hidden;
+}
+
 h2 {
     text-align: center;
 }
@@ -22,6 +27,7 @@ h1 {
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 /*właściwości menu nawigacyjne*/
@@ -56,10 +62,9 @@ h1 {
     color: #291f1a;
 }
 
-#main-nav label
+#main-nav label,
 #main-nav #drop {
     display: none;
-    color: #fff;
 }
 
 /*właściwości header z imieniem i nazwiskiem*/
@@ -74,7 +79,7 @@ h1 {
 }
 
 #main-header .main-header-content {
-    padding: 30vh;
+    padding: 30vh 0;
 }
 
 #main-header h1 {
@@ -131,7 +136,6 @@ h1 {
     background-color: #213b50;
     color: #fff;
     width: 100%;
-    overflow: hidden;
 }
 
 #contact .contact-data {
