@@ -234,11 +234,11 @@ h1 {
     position: absolute;
     font-size: initial;
     color: #fff;
+    transition: all 0.3s ease-in-out;
 }
 
 .portfolio-items .item-mask:hover {
     opacity: 1;
-    transition: all 0.3s ease-in-out;
 }
 
 .portfolio-items .item-mask .item-content {
@@ -261,6 +261,8 @@ h1 {
     color: #1ac056;
 }
 
+/* waściwości footer */
+
 footer {
     background-color: #142634;
     padding: 0 80px;
@@ -268,5 +270,9 @@ footer {
 
 footer p {
     margin: 0;
+    color: #fff;
+}
+
+footer a {
     color: #fff;
 }
